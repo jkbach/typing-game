@@ -3,5 +3,17 @@
 	background-color: rgb(100, 120, 150);
 }
 h1 {
-	color: red;
+	color: black;
+}
+p.header::first-letter {
+	font-size: 1.5em;
+}
+a {
+	text-decoration: none;
+}
+dt {
+	color: yellow;
+}
+dl {
+	text-indent: 50px;
 }
