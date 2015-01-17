@@ -2,38 +2,19 @@
 <html>
 <head>
 	<link href='http://fonts.googleapis.com/css?family=Bangers|Open+Sans' rel='stylesheet' type='text/css'>	
-	<link href='style.css' type='text/css' rel='stylesheet'>
-	<title>John Kaltenbach - Home</title>
+	<link href='../style.css' type='text/css' rel='stylesheet'>
+	<title>Type suhn!</title>
 </head>
 <body>
-	<h1>JOHN KALTENBAC<span id="secretPikaButton">H</span></h1>
-	<img id="secretPika" align="middle" src="PIKACHU.GIF" />
-	<ul id="mainMenuButtons">
-		<li class="topics" id="about" click-field="aboutPrev">ABOUT</li>
-		<li class="topics" id="photos" click-field="picsPrev">PHOTOS</li>
-		<li class="topics" id="contact" click-field="contactPrev">CONTACT</li>
-		<li class="topics" id="typeGame"><a href="typeGame/typeGame.html">TYPING GAME</li>
-		<li class="topics" id="extraElem"></li>
-	</ul>
-	
-	<div class="topicPrev" id="aboutPrev">
-		<h2>ABOUT JOHN</h2>
-		<p>Hello there!  I'm a student at the University of Washington interested in Computer Science.  I'm excited to explore business and analytical applications of computing.  I spend a good portion of my time studying or working as a teaching assistant for the introductory Java series here at UW, but in my free time I like to:</p>
-		<ul>
-			<li>Travel</li>
-			<li>Play music</li>
-			<li>Learn languages</li>
-		</ul>
-	</div>
-	<div class="topicPrev" id="contactPrev">
-		<h2>Get in touch</h2>
-		<p>Lorem ipsum dolor sit amet, lacinia condimentum vitae augue sunt nostra vivamus, ut sodales nulla wisi habitasse fusce. In mauris eu vitae blandit. Arcu libero nunc, suspendisse convallis sed etiam. At nam, dui metus duis augue elit at sequi, libero integer integer at, phasellus etiam cursus vestibulum. Malesuada nec luctus laoreet eu, curabitur vitae porta accumsan convallis luctus proin. Et vitae posuere et. Convallis nec lacus, leo enim odio vestibulum vel turpis, ut ante lorem asperiores luctus egestas risus. Venenatis justo tellus ac, id scelerisque dui orci erat, imperdiet nibh eu lacinia.</p>
-	</div>
-	<div class="topicPrev" id="picsPrev">
-		<h2>Some photos</h2>
-		<p>photos go here</p>
+	<h1 id="startButton">START</h1>
+	<div id="gameBorder">
+		<h2 id="timer"></h2>
+		<h1 id="currWord"></h1>
+		<h1 id="buildWord" class="highlight"></h1>
+		<h1>Misses: <span id="misses"></span></h2>
 	</div>
 	<script id="jquers" src = "http://code.jquery.com/jquery-1.11.1.js"></script>
-	<script src="mySite.js"></script>
+	<script src="typeGame.js"></script>
 </body>
 </html>
+
