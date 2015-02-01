@@ -1,9 +1,8 @@
+$('body').hide().fadeIn(2000);
 window.onload = function() {
 	var prevOpen = false;
 	var currOpen;
 	var currButton;
-
-	$('body').hide().fadeIn(2000);
 
 	$('.topics').on('click', function() {
 		var toggleSpeed = 0;
