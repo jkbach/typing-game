@@ -45,7 +45,7 @@ h1 {
 	text-align: justify;
 }
 
-.topics, h2, a.topics {
+.topics, h2 {
 	padding-top: 15px;
 	font-size: 3.5em;
 /*	font-family: 'League-Gothic';
