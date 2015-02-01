@@ -96,6 +96,14 @@ a {
 	underline: none;
 }
 
+typeGame {
+	color: inherit;
+	font-family: inherit;
+	visited: none;
+	text-decoration: none;
+	underline: none;	
+}
+
 .topics clicked {
 	display: inline-block;
 	padding-top: 15px;
