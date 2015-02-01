@@ -1,3 +1,4 @@
+function () {
 $('body').hide().fadeIn(2000);
 window.onload = function() {
 	var prevOpen = false;
@@ -11,7 +12,7 @@ window.onload = function() {
 			alert("It appears that you are using Internet Explorer.  Please note that this website has not been tested with Internet Explorer and may not function correctly.")
 		}
 		return false;
-	}
+	}();
 	
 	$('.topics').on('click', function() {
 		var toggleSpeed = 0;
@@ -42,3 +43,4 @@ window.onload = function() {
 		$('#secretPika').toggle(300);
 	});
 }
+}();
