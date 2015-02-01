@@ -51,6 +51,7 @@ h1 {
 /*	font-family: 'League-Gothic';
 */	text-shadow: 1px 1px 0px #5696BC, 1.5px 1.5px 0px black;
 	cursor: pointer;
+	text-decoration: none;
 }
 
 .topics {
